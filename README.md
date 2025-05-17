@@ -1,8 +1,16 @@
-# Evcil Hayvan Simülatörü v1.0
+# Evcil Hayvan Simülatörü v2.0
 
-Basit bir evcil hayvan bakım simülasyonu oyunu. Bu ilk sürümde temel özellikler bulunmaktadır.
+Evcil hayvan bakım simülasyonu oyununun ikinci sürümü. Bu sürümde eşya sistemi eklendi!
 
-## Özellikler
+## Yeni Özellikler
+- Eşya sistemi
+- Evcil hayvanların durumlarını iyileştirme
+- Yeni eşyalar:
+  - Mama (Açlık +30)
+  - Uyku Yastığı (Uykululuk +40)
+  - Oyuncak Top (Eğlence +25)
+
+## Mevcut Özellikler
 - Evcil hayvan sahiplenme
 - Evcil hayvanların durumlarını görüntüleme
 - Temel istatistikler (Açlık, Uykululuk, Eğlence)
@@ -12,7 +20,8 @@ Basit bir evcil hayvan bakım simülasyonu oyunu. Bu ilk sürümde temel özelli
 2. Menüden istediğiniz işlemi seçin:
    - 1: Yeni bir evcil hayvan sahiplenin
    - 2: Mevcut evcil hayvanlarınızı görüntüleyin
-   - 3: Çıkış
+   - 3: Eşya kullanın
+   - 4: Çıkış
 
 ## Sistem Gereksinimleri
 - .NET 6.0 Runtime
@@ -23,6 +32,6 @@ Basit bir evcil hayvan bakım simülasyonu oyunu. Bu ilk sürümde temel özelli
 2. Oyun dosyasını çalıştırın
 
 ## Sürüm Notları
-- İlk sürüm
-- Temel evcil hayvan yönetimi
-- Basit kullanıcı arayüzü 
+- Eşya sistemi eklendi
+- Evcil hayvanların durumlarını iyileştirme mekanizması
+- Kullanıcı arayüzü geliştirmeleri 

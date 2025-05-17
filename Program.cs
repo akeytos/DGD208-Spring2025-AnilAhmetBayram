@@ -1,11 +1,12 @@
 using System;
+using System.Threading.Tasks;
 using Managers;
 
 class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
-        Console.WriteLine("🐾 Evcil Hayvan Simülatörü v1.0 🐾\n");
+        Console.WriteLine("🐾 Evcil Hayvan Simülatörü v2.0 🐾\n");
         var petManager = new PetManager();
 
         while (true)
@@ -13,7 +14,8 @@ class Program
             Console.WriteLine("Ne yapmak istersiniz?");
             Console.WriteLine("1. Evcil Hayvan Sahiplen");
             Console.WriteLine("2. Evcil Hayvanları Görüntüle");
-            Console.WriteLine("3. Çıkış");
+            Console.WriteLine("3. Eşya Kullan");
+            Console.WriteLine("4. Çıkış");
 
             string? choice = Console.ReadLine();
             Console.WriteLine();
@@ -27,6 +29,9 @@ class Program
                     petManager.DisplayPets();
                     break;
                 case "3":
+                    await petManager.UseItemAsync();
+                    break;
+                case "4":
                     Console.WriteLine("Güle güle!");
                     return;
                 default:
